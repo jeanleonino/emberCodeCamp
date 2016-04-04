@@ -20,9 +20,9 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf');
-  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff');
-  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff2');
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.ttf', { destDir: 'fonts' });
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff', { destDir: 'fonts' });
+  app.import('bower_components/font-awesome/fonts/fontawesome-webfont.woff2', { destDir: 'fonts' });
   app.import('bower_components/uikit/js/uikit.min.js');
 
   return app.toTree();
