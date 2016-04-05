@@ -1,16 +1,12 @@
 <div class="container">
   <!-- navbar -->
-  <nav>
+  <nav class="navbar">
     <ul>
       <li>{{#link-to "index"}}emberCodeCamp{{/link-to}}</li>
+      <li>{{#link-to "challenges"}}Challenges{{/link-to}}</li>
+      <li>{{#link-to "about"}}About{{/link-to}}</li>
+      <li>{{#link-to "shop"}}Shop{{/link-to}}</li>
     </ul>
-    <div>
-      <ul>
-        <li>{{#link-to "challenges"}}Challenges{{/link-to}}</li>
-        <li>{{#link-to "about"}}About{{/link-to}}</li>
-        <li>{{#link-to "shop"}}Shop{{/link-to}}</li>
-      </ul>
-    </div>
   </nav>
   <!-- ./navbar -->
   {{outlet}}

@@ -2,5 +2,10 @@
 $primary-color:           #2D812B;  // base green
 $secondary-color:         #FDFEFD;
 $ternary-color:           #14690E;  // brighter green - btn
-$forth-color:             #91B990;  // lighter green - active menu item
+$fourth-color:            #91B990;  // lighter green - active menu item
 $fifth-color:             #042609;  // dark green - fonts
+
+$base-body-background:    $secondary-color;
+$base-body-color:         $fifth-color;
+
+$base-link-color:         $ternary-color;

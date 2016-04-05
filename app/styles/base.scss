@@ -1,0 +1,33 @@
+$base-link-text-decoration: none !default;
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: $base-body-background;
+  color: $base-body-color;
+}
+
+/*
+ * Removes default margin.
+ */
+
+body { margin: 0; }
+
+a { background: transparent; }
+
+/*
+ * Improve readability of focused elements when they are also in an active/hover state.
+ */
+
+/*
+ * Styles
+ */
+
+a:active,
+a:hover { outline: 0; }
+
+a {
+  color: $base-link-color;
+  text-decoration: $base-link-text-decoration;
+  cursor: pointer;
+}

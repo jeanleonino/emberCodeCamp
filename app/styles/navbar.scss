@@ -1,0 +1,22 @@
+.navbar {
+  background: $primary-color;
+  color: $secondary-color;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    background: $primary-color;
+    float: left;
+
+    a {
+      display: block;
+      color: $secondary-color;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px 16px;
+    }
+  }
+}
