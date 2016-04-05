@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('shop');
   this.route('challenges');
+  this.route('htmlelements');
 });
 
 export default Router;
