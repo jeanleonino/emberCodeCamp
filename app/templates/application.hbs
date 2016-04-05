@@ -1,20 +1,17 @@
-<div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+<div class="container">
   <!-- navbar -->
-  <div class="uk-margin">
-    <nav class="uk-navbar">
-      <ul class="uk-navbar-nav uk-hidden-small">
-        <li class="uk-active">{{#link-to "index"}}emberCodeCamp{{/link-to}}</li>
+  <nav>
+    <ul>
+      <li>{{#link-to "index"}}emberCodeCamp{{/link-to}}</li>
+    </ul>
+    <div>
+      <ul>
+        <li>{{#link-to "challenges"}}Challenges{{/link-to}}</li>
+        <li>{{#link-to "about"}}About{{/link-to}}</li>
+        <li>{{#link-to "shop"}}Shop{{/link-to}}</li>
       </ul>
-      <div class="uk-navbar-flip">
-        <a href="" class="uk-navbar-toggle uk-navbar-toggle-alt uk-visible-small"></a>
-        <ul class="uk-navbar-nav uk-hidden-small">
-          <li>{{#link-to "challenges"}}Challenges{{/link-to}}</li>
-          <li>{{#link-to "about"}}About{{/link-to}}</li>
-          <li>{{#link-to "shop"}}Shop{{/link-to}}</li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
   <!-- ./navbar -->
   {{outlet}}
 </div>
